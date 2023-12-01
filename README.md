@@ -39,5 +39,15 @@
 ## Layouts/sidebar
 ### ![image](https://github.com/Silkaleex/Fuego-Cuero/assets/82760991/767c5898-b604-448a-a8eb-f3558b257471)
 
+## pedido/confirmado
+### ![image](https://github.com/Silkaleex/Fuego-Cuero/assets/82760991/d1e89671-0dfe-4953-8c35-42028e74b5ce)
 
+## pedido/detalle
+### ![image](https://github.com/Silkaleex/Fuego-Cuero/assets/82760991/f46b86be-4cfb-4ceb-a653-098ef3b662ff)
+
+## pedido/hacer
+### ![image](https://github.com/Silkaleex/Fuego-Cuero/assets/82760991/2d0dc0f9-b7ec-4f47-87ab-85bd61db3f42)
+
+## pedido/mis_pedidos
+### todavia esta en desarrollo
 
