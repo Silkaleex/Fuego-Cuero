@@ -13,8 +13,31 @@
  ### -categoria: es una sección solo para administradores en la que añadimos la categoria del producto, en este caso si son unos guantes pantalones...,etc.
  ### -layouts:Es la estructura HTML5 de la tienda.
  ### -pedido: en esa parte veremos la confirmacion del pedido, podemos ver tambien los detalles del producto, un formulario para hacer el pedido, y donde se mostrarán los productos que se van a comprar.
+ ### -autoload:me gestiona los datos del controlador a la vista.
+ 
+ ### Views
  ## carrito/index
  ### ![image](https://github.com/Silkaleex/Fuego-Cuero/assets/82760991/2d62174a-bb83-4016-a4e4-1cfae27b51d9)
  ### ![image](https://github.com/Silkaleex/Fuego-Cuero/assets/82760991/c70cd756-ee19-4860-a45a-74efaab34903)
  ### ![image](https://github.com/Silkaleex/Fuego-Cuero/assets/82760991/eac006ab-6dbc-4290-a0e4-e03bae200987)
+ 
+## categoria/crear
+### ![image](https://github.com/Silkaleex/Fuego-Cuero/assets/82760991/c2aacc33-b33e-47f3-8bdf-60e60306de8b)
+
+## categoria/index
+### ![image](https://github.com/Silkaleex/Fuego-Cuero/assets/82760991/45e0bec1-f641-4d47-b00d-1da82a45b392)
+
+## categoria/ver 
+### ![image](https://github.com/Silkaleex/Fuego-Cuero/assets/82760991/95b6dfae-cdb0-432a-bc79-4a39cc19c7fe)
+
+## Layouts/footer
+### ![image](https://github.com/Silkaleex/Fuego-Cuero/assets/82760991/117d12ae-ebb1-4750-904d-f129ff3695d2)
+
+## Layouts/header
+### ![image](https://github.com/Silkaleex/Fuego-Cuero/assets/82760991/9f323f14-ab4c-4211-a1f2-6788fed1d620)
+
+## Layouts/sidebar
+### ![image](https://github.com/Silkaleex/Fuego-Cuero/assets/82760991/767c5898-b604-448a-a8eb-f3558b257471)
+
+
 
