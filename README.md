@@ -13,3 +13,8 @@
  ### -categoria: es una sección solo para administradores en la que añadimos la categoria del producto, en este caso si son unos guantes pantalones...,etc.
  ### -layouts:Es la estructura HTML5 de la tienda.
  ### -pedido: en esa parte veremos la confirmacion del pedido, podemos ver tambien los detalles del producto, un formulario para hacer el pedido, y donde se mostrarán los productos que se van a comprar.
+ ## carrito/index
+ ### ![image](https://github.com/Silkaleex/Fuego-Cuero/assets/82760991/2d62174a-bb83-4016-a4e4-1cfae27b51d9)
+ ### ![image](https://github.com/Silkaleex/Fuego-Cuero/assets/82760991/c70cd756-ee19-4860-a45a-74efaab34903)
+ ### ![image](https://github.com/Silkaleex/Fuego-Cuero/assets/82760991/eac006ab-6dbc-4290-a0e4-e03bae200987)
+
