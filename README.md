@@ -51,3 +51,21 @@
 ## pedido/mis_pedidos
 ### todavia esta en desarrollo
 
+## producto/crear
+### ![image](https://github.com/Silkaleex/Fuego-Cuero/assets/82760991/6883e41a-2e87-42b5-b3d9-efc349b6852a)
+
+## producto/destacados
+### ![image](https://github.com/Silkaleex/Fuego-Cuero/assets/82760991/0cd143de-49d6-41d9-ae8c-8389d8817280)
+
+## producto/ver
+### ![image](https://github.com/Silkaleex/Fuego-Cuero/assets/82760991/85c68f7a-01be-4ea2-bdde-6ab4cb52fc35)
+
+## productos/gestion
+### ![image](https://github.com/Silkaleex/Fuego-Cuero/assets/82760991/0b3b44e2-2abd-439b-b1f7-50a1d85ef86f)
+
+## usuario/registro
+### ![image](https://github.com/Silkaleex/Fuego-Cuero/assets/82760991/1d30d8ee-f443-41bb-b621-de797329c949)
+
+## autoload
+### ![image](https://github.com/Silkaleex/Fuego-Cuero/assets/82760991/2871c152-a289-4974-bb8c-d0f81e5e6024)
+
