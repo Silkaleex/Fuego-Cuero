@@ -12,14 +12,17 @@ body {
 
 a {
   color: #d90429;
+  text-decoration:none;
 }
 
 a:visited {
   color: #d90429;
+  text-decoration:none;
 }
 
 a:hover {
   color: #555555;
+  text-decoration:none;
 }
 
 .alert_green {
@@ -264,11 +267,6 @@ button,
   margin-bottom: 5px;
 }
 
-.button-red {
-  background: red;
-  border: 1px solid #cf1717;
-}
-
 label,
 input[type="button"],
 input[type="submit"],
@@ -280,7 +278,7 @@ button {
 /*CENTRAL*/
 #central {
   width: 72%;
-  height: 130vh;
+  height: 150vh;
   float: right;
   border-left: 1px solid #2b2d42;
   box-shadow: -5px -1px 5px #ddd;
@@ -476,67 +474,61 @@ button {
 }
 
 /*CARRITO*/
-.delete-carrito {
-  width: 295px;
-  float: left;
-}
-
-.button-delete {
-  display: block;
-  float: left;
-  width: 100px;
-}
-
-.button-carrito {
-  width: 70px;
-  margin: 0px auto;
-  text-align: center;
-}
-
-.total-carrito {
-  width: 100%;
+.carrito{
   display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
   align-items: center;
 }
-
-.total-carrito h3 {
-  display: block;
-  float: left;
-  margin-top: 5px;
-  color: #e1e1e1;
-  background-color: #d90429;
-  text-align: center;
-  padding: 1rem 0rem;
-  border-radius: 10px;
-}
-
-.button-pedido{
-   width: 63%;
-  text-align: center;
-  float: right;
-  width: 63%;
-  transition: 300ms all;
+.button-control {
+  background: #333;
+  color: #e1e1e1 !important;
   text-decoration: none;
-  background-color: #222;
-  color: #e1e1e1;
-  padding: 1rem 1rem;
+  padding: 5px 5px;
   border-radius: 10px;
- 
 }
-
-.button-pedido:hover{
-  display: block;
-  float: right;
-  width: 63%;
-  padding: 1rem 1rem;
-  border-radius: 10px;
-  background-color: #d90429;
-  color: #e1e1e1;
-  text-align: center;
-  transition: 300ms all;
+.button-control:hover {
+  background: #d90429;
+  color: white !important;
   text-decoration: none;
+  padding: 5px 5px;
+  border-radius: 10px;
 }
-
+.button-comprar{
+  transition: 300ms all;
+  background-color: #444;
+  color: #e1e1e1 !important;
+  text-decoration:none;
+  padding:0.5rem 0.5rem;
+  border-radius:5px;
+}
+.button-comprar:hover{
+  transition: 300ms all;
+  background-color:#e1e1e1;
+  color: #444 !important;
+  text-decoration:none;
+  padding:0.5rem 0.5rem;
+  border-radius:10px;
+  border:1px groove #444;
+}
+.button-eliminar{
+  transition: 300ms all;
+  background-color: #d90429;
+  color: #e1e1e1 !important;
+  text-decoration:none;
+  padding:0.5rem 0.5rem;
+  border-radius:5px;
+  margin: 0rem 1rem;
+}
+.button-eliminar:hover{
+  transition: 300ms all;
+  background-color: #444;
+  color: #e1e1e1 !important;
+  text-decoration:none;
+  padding:0.5rem 0.5rem;
+  border-radius:10px;
+}
 .updown-unidades {
   width: 80px;
   margin: 0px auto;
@@ -548,4 +540,25 @@ button {
   float: left;
   padding: 2px;
   margin: 7px;
+}
+
+/*Detalles del Pedido*/
+.caja-detalle{
+  background-color: #66666670;
+  padding: 1rem;
+  margin: 0rem 0rem 1rem 0rem;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.titulo-detalle{
+  background-color: #d90429;
+    color: #e1e1e1 !important;
+    width: 32%;
+    padding: 0.3rem 1rem;
+    border-radius: 10px;
+}
+.texto-detalle{
+  padding: 0.3rem 2rem;
+  font-weight:600;
+  letter-spacing:1px;
+  border-bottom: 1px solid  #d90429;
 }

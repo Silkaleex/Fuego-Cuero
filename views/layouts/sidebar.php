@@ -40,7 +40,7 @@
                         <?php endif;?>
                         
                         <?php if(isset($_SESSION['identity'])):?>
-                        <a href="<?=base_url?>pedido/mispedidos">Mis pedidos</a>
+                        <a href="<?=base_url?>pedido/mis_pedidos">Mis pedidos</a>
                         <a href="<?=base_url?>usuario/logout">Cerrar Session</a>
 
                         <?php else:?>

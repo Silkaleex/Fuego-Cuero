@@ -119,19 +119,19 @@ class Pedido
 
         $pedido = $this->db->query($sql);
         return $pedido;
-    }
+     }
 
     public function getProductosByPedido($id){
         // $sql = "SELECT * FROM productos WHERE id IN "
         // . "(SELECT producto_id FROM lineas_pedidos WHERE pedido_id={$id})";
-
         $sql = "SELECT pr.*, lp.unidades FROM productos pr "
-        ."INNER JOIN lineas_pedidos lp ON pr.id = lp.producto_id "
-        ."WHERE lp.pedido_id={$id}";
+        . "INNER JOIN lineas_pedidos lp ON pr.id = lp.producto_id "
+        . "WHERE lp.pedido_id={$id}";
 
-        $productos = $this->db->query($sql);
+        $productos = $this->db->query($sql);//
         return $productos;
     }
+
 
     public function save()
     {
@@ -165,6 +165,6 @@ class Pedido
             $result = false;
         }
         return $result;
+
     }
-    
 }

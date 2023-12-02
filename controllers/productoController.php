@@ -1,4 +1,5 @@
 <?php
+ob_start();
 require_once 'models/producto.php';
 class productoController
 {
@@ -6,6 +7,7 @@ class productoController
     {
         $producto = new Productos();
         $productos = $producto->getRandom(6);
+        
         //renderizar vista
         require_once 'views/producto/destacados.php';
     }
@@ -89,7 +91,7 @@ class productoController
         }else{
             $_SESSION['producto'] = "failed";
         }
-        header('Location:'.base_url.'producto/gestion');
+        header('Location:'.base_url.'producto/gestion');//
     }
     public function editar(){
         Utils::isAdmin();
@@ -104,7 +106,7 @@ class productoController
 
         require_once 'views/producto/crear.php';
         }else{
-            header('Location:'.base_url.'producto/gestion');
+            header('Location: '.base_url.'producto/gestion');
         }
     }
 
@@ -124,6 +126,7 @@ class productoController
         }else{
             $_SESSION['delete'] = 'failed';
         }
-        header('Location:'.base_url.'producto/gestion');
+        header('Location: '.base_url.'producto/gestion');
     }
 }
+ob_end_flush();

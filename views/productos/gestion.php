@@ -11,7 +11,6 @@
 <?php endif;?>
 <?php Utils::deleteSession('producto');?>
 
-
 <table>
     <tr>
         <th>Id:</th>
