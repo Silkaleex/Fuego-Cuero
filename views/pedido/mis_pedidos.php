@@ -21,7 +21,7 @@
         ?>
             <tr>
                 <td>
-                <a href="<?= base_url ?>pedido/detalle&id=<?= $ped->id ?>"><?= $ped->id ?></a>
+                <a class="boton-pedido" href="<?= base_url ?>pedido/detalle&id=<?= $ped->id ?>"><?= $ped->id ?></a>
                 
                 </td>
                 <td>

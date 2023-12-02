@@ -53,14 +53,12 @@
     </table>
     <div class="total-carrito">
 <?php $stats = Utils::statsCarrito();?>
-<h3 class="total-carrito">Precio total: <?=$stats['total']?>€</h3>
-<a href="<?=base_url?>pedido/hacer" class="button button-pedido">Comprar productos</a>
 </div>
-    </br>
+</br>
 
-    <?php $stats = Utils::statsCarrito(); ?>
-    <div class="carrito">
-        <h3>Precio total: <?= $stats['total'] ?>€</h3>
+<?php $stats = Utils::statsCarrito(); ?>
+<div class="carrito">
+        <h3 class="total-carrito">Precio total: <?=$stats['total']?>€</h3>
         <a href="<?= base_url ?>carrito/delete_all" class="button-eliminar">Vaciar Carrito</a>
 
         <a href="<?= base_url ?>pedido/hacer" class="button-comprar">Comprar productos</a>
