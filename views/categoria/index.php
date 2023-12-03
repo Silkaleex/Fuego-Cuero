@@ -1,6 +1,6 @@
 <h1>Gestión de Categorias</h1>
 <a href="<?= base_url ?>categoria/crear" class="button button-small">Crear Categoria</a>
-<table>
+<table class="table-detalle">
     <tr>
         <th>Id:</th>
         <th>Nombre:</th>

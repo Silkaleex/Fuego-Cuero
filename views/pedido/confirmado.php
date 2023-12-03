@@ -1,19 +1,29 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="<?=base_url?>./assets/css/styles.css" />
+</head>
+<body>
 <?php if (isset($_SESSION['pedido']) && $_SESSION['pedido'] == 'complete') : ?>
     <h1>Tu pedido se ha confirmado</h1>
-    <p>
+    <p  class="confirmacion-mensaje">
         Tu pedido ha sido guardado con exito, una vez que realices la transferencia
-        bancaria a la cuenta 1234567890ABCD con el coste del pedido, será procesado y enviado.
+        bancaria a la cuenta *1234567890ABCD* con el coste del pedido, será procesado y enviado.
     </p>
     <br />
     <div id="confirmacion">
         <?php if (isset($pedido)) : ?>
             <h3 class="titulo-confirmacion">Datos del pedido:</h3>
-
-            <p class="txt-confirmacion">Número de pedido: <?= $pedido->id ?></p> <br />
-            <p class="txt-confirmacion">Total a pagar: <?= $pedido->coste ?> €</p> <br />
+            <p class="txt-confirmacion">-Número de pedido: <?= $pedido->id ?></p> <br />
+            <p class="txt-confirmacion">-Total a pagar: <?= $pedido->coste ?> €</p> <br />
         </div>
-        Productos:
-    <table>
+
+        <h3 class="titulo-confirmacion">Productos:</h3>
+    <table  class="table-detalle">
         <tr>
             <th>Imagen</th>
             <th>Nombre</th>
@@ -47,3 +57,5 @@
 <?php elseif (isset($_SESSION['pedido']) && $_SESSION['pedido'] != 'complete') : ?>
     <h1>Tu pedido NO ha podido procesarse</h1>
 <?php endif; ?>
+</body>
+</html>

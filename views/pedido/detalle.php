@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="<?=base_url?>./assets/css/styles.css" />
 	<title>Document</title>
 </head>
 <body>
@@ -19,9 +20,9 @@
 <h2 class="titulo-detalle">Datos del pedido:</h2><br/>
 <h3 class="texto-detalle">* Número de pedido: <?= $pedido->id ?></h3><br/>
 <h3 class="texto-detalle">* Total a pagar: <?= $pedido->coste ?> €</h3><br/>
-<h2 class="titulo-detalle">Productos:</h2>
 </div>
-<table>
+<h2>Productos:</h2>
+<table class="table-detalle">
 	<tr>
 		<th>Imagen</th>
 		<th>Nombre</th>
@@ -38,13 +39,13 @@
 				<?php endif; ?>
 			</td>
 			<td>
-				<a href="<?= base_url ?>producto/ver&id=<?= $producto->id ?>"><?= $producto->nombre ?></a>
+				<a href="<?= base_url ?>producto/ver&id=<?= $producto->id ?>"class="boton-producto"><?= $producto->nombre ?></a>
 			</td>
 			<td>
-				<?= $producto->precio ?>
+				<?= $producto->precio ?>€
 			</td>
 			<td>
-				<?= $producto->unidades ?>
+				<?= $producto->unidades ?>ud
 			</td>
 		</tr>
 	<?php endwhile; ?>

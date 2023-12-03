@@ -9,7 +9,7 @@
 <body>
     <h1>El carrito de la compra</h1>
     <?php if (isset($_SESSION['carrito']) && count($_SESSION['carrito']) >= 1) :?>
-    <table>
+    <table class="table-detalle">
         <tr>
             <th>Imagen</th>
             <th>Nombre</th>

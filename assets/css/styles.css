@@ -253,19 +253,24 @@ button,
   background: #ef233c;
   border: 1px solid #edf2f4;
   cursor: pointer;
+  margin: 5px 0px;
 }
 
 .button {
   background: #d90429;
   color: white !important;
-  text-decoration: none;
   margin-left: 18rem;
+  text-shadow:1px 1px 1px #000;
 }
-.button-2 {
+.button2 {
   background: #999;
   color: white !important;
-  text-decoration: none;
+  text-shadow:1px 1px 1px #000;
   margin-left: 18rem;
+  border: 1px solid #edf2f4;
+  cursor: pointer;
+  padding:0rem 1rem 0rem 1rem;
+  border-radius: 2px;
 }
 .button-small {
   width: 120px;
@@ -277,7 +282,9 @@ button,
   margin-top: 5px;
   margin-bottom: 5px;
 }
-
+.fila{
+  height: 80px;
+}
 label,
 input[type="button"],
 input[type="submit"],
@@ -289,7 +296,6 @@ button {
 /*CENTRAL*/
 #central {
   width: 72%;
-  height: 150vh;
   float: right;
   border-left: 1px solid #2b2d42;
   box-shadow: -5px -1px 5px #ddd;
@@ -576,10 +582,14 @@ button {
   margin: 0rem 0rem 1rem 0rem;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
+.table-detalle{
+  background-color: #66666670;
+  padding:1.5rem 1rem;
+}
 .titulo-detalle{
   background-color: #d90429;
     color: #e1e1e1 !important;
-    width: 32%;
+    width: 36%;
     padding: 0.3rem 1rem;
     border-radius: 10px;
 }
@@ -589,20 +599,44 @@ button {
   letter-spacing:1px;
   border-bottom: 1px solid  #d90429;
 }
+.boton-producto{
+  background-color: #444;
+  color: #e1e1e1 !important;
+  padding: 0.5rem 1rem;
+  border-radius:10px;
+}
+.boton-producto:hover{
+  background-color: #d90429;
+  color: #e1e1e1 !important;
+  padding: 0.5rem 1rem;
+  border-radius:10px;
+}
 /*Confirmacion del pedido*/
-#confirmacion{
+#confirmacion {
   background-color: #999;
   width: 50%;
   padding: 0.5rem 1.5rem;
   border-radius: 10px;
+  margin: 1rem 0rem 3rem 0rem;
+}
+.confirmacion-mensaje{
+  background-color: #333;
+  color: #e1e1e1 !important;
+  padding: 0.5rem 0.5rem;
+  border-radius: 10px;
+  font-size: 25px;
+  text-shadow: 1px 1px 1px #000;
 }
 .titulo-confirmacion{
   border-bottom: 1px solid red;
   margin-bottom: 1rem;
   letter-spacing: 5px;
+  font-size: 30px;
+
 }
-.txt-confirmacion{
-  letter-spacing: 3px;
+.txt-confirmacion {
+  letter-spacing: 1px;
+  font-weight: 400;
 }
 .producto-confirmacion{
   text-decoration: none;
