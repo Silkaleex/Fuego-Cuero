@@ -7,8 +7,8 @@
 
 ## Fuego&Cuero Componentes: views: Es la vista que va a tener el usuario para realizar ciertas acciones:
  ### -Productos: Solo es accesible por el administrador, aqui vemos todos los productos, Ademas de modificar o eliminar un producto.
- ### -Usuario: formulario para que el usuario se registre.
- ### -Producto: esta sección solo puede acceder, donde hay un formulario para crear un productos donde le añadiremos el nombre, descripción ,cuantas hay en la tienda, una imagen.
+ ### -Usuario: Hay un formulario para crearse una cuenta como usuario.
+ ### -Producto: esta sección solo puede acceder como administrador, hay un formulario para crear un productos donde le añadiremos el nombre, descripción, cuantas hay en la tienda, una imagen.
  ### -carrito:En este componente agregaremos nuestros productos, podemos añadir mas unidades que deseemos, tambien podemos eliminar un producto que no queremos, o simplemente vaciamos el carrito por que nos equivocamos al añadir varios productos y por ultimo también tenemos un botón para comprar los productos que queremos.
  ### -categoria: es una sección solo para administradores en la que añadimos la categoria del producto, en este caso si son unos guantes pantalones...,etc.
  ### -layouts:Es la estructura HTML5 de la tienda.
