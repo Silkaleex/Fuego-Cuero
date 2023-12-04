@@ -6,9 +6,9 @@
 ### ![image](https://github.com/Silkaleex/Fuego-Cuero/assets/82760991/2e68aee9-86b7-44fd-bac8-24111affc8b3)
 
 ## Fuego&Cuero Componentes: views: Es la vista que va a tener el usuario para realizar ciertas acciones:
- ### -productos:esta seccion es del administrador, aqui vemos todos los productos, podemos modificar o eliminar un producto que sea erroneo.
- ### -usuario:formulario para que el usuario se registre.
- ### -producto: esta sección solo puede acceder, donde hay un formulario para crear un productos donde le añadiremos el nombre, descripción ,cuantas hay en la tienda, una imagen.
+ ### -Productos: Solo es accesible por el administrador, aqui vemos todos los productos, Ademas de modificar o eliminar un producto.
+ ### -Usuario: formulario para que el usuario se registre.
+ ### -Producto: esta sección solo puede acceder, donde hay un formulario para crear un productos donde le añadiremos el nombre, descripción ,cuantas hay en la tienda, una imagen.
  ### -carrito:En este componente agregaremos nuestros productos, podemos añadir mas unidades que deseemos, tambien podemos eliminar un producto que no queremos, o simplemente vaciamos el carrito por que nos equivocamos al añadir varios productos y por ultimo también tenemos un botón para comprar los productos que queremos.
  ### -categoria: es una sección solo para administradores en la que añadimos la categoria del producto, en este caso si son unos guantes pantalones...,etc.
  ### -layouts:Es la estructura HTML5 de la tienda.
@@ -49,7 +49,8 @@
 ### ![image](https://github.com/Silkaleex/Fuego-Cuero/assets/82760991/2d0dc0f9-b7ec-4f47-87ab-85bd61db3f42)
 
 ## pedido/mis_pedidos
-### todavia esta en desarrollo
+### ![image](https://github.com/Silkaleex/Fuego-Cuero/assets/82760991/988da58a-ceb8-48e4-83bd-933a4ce37be3)
+### ![image](https://github.com/Silkaleex/Fuego-Cuero/assets/82760991/0a24c5ee-50be-4ef0-ab07-f67cafcfd611)
 
 ## producto/crear
 ### ![image](https://github.com/Silkaleex/Fuego-Cuero/assets/82760991/6883e41a-2e87-42b5-b3d9-efc349b6852a)
