@@ -5,7 +5,8 @@
 ## Estructura del proyecto
 ### ![image](https://github.com/Silkaleex/Fuego-Cuero/assets/82760991/2e68aee9-86b7-44fd-bac8-24111affc8b3)
 
-## Fuego&Cuero Componentes: views: Es la vista que va a tener el usuario para realizar ciertas acciones:
+## Fuego&Cuero Componentes:
+### views: Encargada de mostrar la información al usuario de Forma Gráfica:
  ### -Productos: Solo es accesible por el administrador, aqui vemos todos los productos, Además de modificar o eliminar un producto.
  ### -Usuario: Hay un formulario para crearse una cuenta como usuario.
  ### -Producto: esta sección solo puede acceder como administrador, hay un formulario para crear un productos donde le añadiremos el nombre, descripción, cuantas hay en la tienda, una imagen.
@@ -90,3 +91,10 @@
 
 ## Assets
 ### Aqui se guardarán los estilos CSS3 aplicados a todos los componentes, tambien tendremos otra carpeta donde esta el logo de la tienda y el fondo de la tienda
+
+## Models
+### Lógica de negocio que parte en clases y métodos que se comunican directamente con la base de datos o hacen una funcionalidad o una lógica compleja.
+
+## Controllers
+## Intermediario entre vista(views) y modelo(models), es el encargado de controlar las interacciones entre el usuario y la vista, procesa una informacion le pide los datos al modelo y devuelve nuevos datos o una vista nueva para que se le muestrarsela al usuario.
+### Crea objetos llama metodos, a funciones que hacen lógica y reciben datos de formularios y enviarlos a la vista para que lo vea el usuario.
