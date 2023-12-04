@@ -1,6 +1,6 @@
 # Fuego&Cuero
 ## La tienda de Fuego&Cuero es una tienda con productos de Rock y de Heavy Metal, nos permite hacer un usuario y en la que podremos comprar nuestros productos que mas nos gusten.
-## Esta tienda a sido creada con tecnologías PHP, con una estructura MVC(MODELO, VISTA y CONTROLADOR) y una base de datos creada en SQL.
+## Esta tienda a sido creada con tecnologías PHP, con una estructura MVC(MODELO, VISTA y CONTROLADOR) Es un patrón de diseño de Software que sus siglas son MVC que se encarga de separar la lógica de negocio de la interfaz del usuario, es el responsable de separar lo que es las functiones que se muestran al usuario, su patrón de diseño es muy utilizado en la web se usa en frameworks como en el frontend con react, angular, y en el backend como PHP que ya lo implementan, facilitan mucho la gestión a la hora de desarrollar ciertas functiones ademas de mantener la escalabilidad  que pueda tener una aplicación de forma mucho más cómoda y sencilla.
 ### ![image](https://github.com/Silkaleex/Fuego-Cuero/assets/82760991/1678a36b-d327-42c6-93d3-c4aac14fb0a7)
 ## Estructura del proyecto
 ### ![image](https://github.com/Silkaleex/Fuego-Cuero/assets/82760991/2e68aee9-86b7-44fd-bac8-24111affc8b3)
@@ -70,3 +70,23 @@
 ## autoload
 ### ![image](https://github.com/Silkaleex/Fuego-Cuero/assets/82760991/2871c152-a289-4974-bb8c-d0f81e5e6024)
 
+## Uploads/images
+### En esta carpeta guardamos las imagenes subidas de los productos
+
+## Database
+### Aqui he creado las talas con los correspondientes datos que van a ir a cada una de ellas, Usuarios, Categorias, productos, pedidos, lineas_pedidos.
+### ![image](https://github.com/Silkaleex/Fuego-Cuero/assets/82760991/c7827405-1982-40ff-b755-d4215576aab4)
+### ![image](https://github.com/Silkaleex/Fuego-Cuero/assets/82760991/41f19bd6-14d4-463b-9b53-0ebfe8b0b677)
+
+## Config
+### configuracion entre la base de datos con el servidor, por ejemplo cuando creo un producto a traves de un formulario con todos sus datos, en mi base de datos me guardara todas las caracteristicas que yo he creado en el formulario, se quedaria asi guardado en la base de datos:
+### ![image](https://github.com/Silkaleex/Fuego-Cuero/assets/82760991/cd904190-cff0-411b-96c2-564fb04aa67c)
+
+## Helpers:
+### Son juegos de funciones, ordenados por temática en diferentes paquetes, que nos ayudan en la realización de tareas habituales en las aplicaciones web. Existen helpers para muchas cosas distintas, como para trabajo con arrays, fechas, cookies, emails, URLs, formularios, etc.
+### En mi caso lo use para cerrar sesion de usuario, para identificarse , para verificar el estado del carrito, para ver cuantos productos y precio añadidos al carrito para verificar cuantas categorias hay
+### ![image](https://github.com/Silkaleex/Fuego-Cuero/assets/82760991/5960e81b-92de-43f1-b5c0-36e1c56a9c4e)
+### ![image](https://github.com/Silkaleex/Fuego-Cuero/assets/82760991/a45532c9-0c03-42ab-af9e-cb0d9e43d87b)
+
+## Assets
+### Aqui se guardarán los estilos CSS3 aplicados a todos los componentes, tambien tendremos otra carpeta donde esta el logo de la tienda y el fondo de la tienda
