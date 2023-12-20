@@ -1,5 +1,5 @@
 # Fuego&Cuero
-## La tienda de Fuego&Cuero es una tienda con productos de Rock y de Heavy Metal, podemos hacernos una cuenta donde podremos gestionar la compra de los productos que deseemos, además de guardar los productos en un carrito para comprarlo todo mas adelante.
+## La tienda de Fuego&Cuero es una tienda con productos de Rock y de Heavy Metal, podemos hacernos una cuenta donde podremos gestionar la compra de los productos que deseemos, además de guardarlos en un carrito para comprarlo todo mas adelante.
 
 ## Esta tienda a sido creada con tecnologías PHP, con una estructura MVC(MODELO, VISTA y CONTROLADOR) Es un patrón de diseño de Software que sus siglas son MVC que se encarga de separar la lógica de negocio de la interfaz del usuario, es el responsable de separar lo que es las funciones que se muestran al usuario, su patrón de diseño es muy utilizado en la web se usa en frameworks como en el frontend con react, angular, y en el backend como PHP que ya lo implementan, facilitan mucho la gestión a la hora de desarrollar ciertas funciones además de mantener la escalabilidad  que pueda tener una aplicación de forma mucho más cómoda y sencilla.
 ### ![image](https://github.com/Silkaleex/Fuego-Cuero/assets/82760991/1678a36b-d327-42c6-93d3-c4aac14fb0a7)
